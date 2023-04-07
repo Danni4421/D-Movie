@@ -1,0 +1,75 @@
+/* import */
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+/* Source Code */
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.D-Movie .logos {
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.Movie-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.Movie-card {
+  width: 400px;
+  background-color: #eaeaea;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 5px solid #808080;
+  color: black;
+}
+
+.Movie-card img {
+  width: 100%;
+  height: 500px;
+}
+
+.Movie-title, 
+.Movie-date, 
+.Movie-rate {
+  font-family: 'Lilita One', cursive;
+  padding: 10px;
+}
+
+.Movie-title {
+  height: 20px;
+  margin-bottom: 20px;
+}
+
+#searchMovie {
+  display: inline-block;
+  margin: 0 0 20px;
+  width: 400px;
+  padding: 20px;
+  font-size: .9rem;
+  font-family: 'Lilita One', cursive;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 10px;
+}
